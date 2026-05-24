@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;800;900&display=swap');
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #050505; --purple: #7A00FF; --purple2: #A020F0;
+  --blue: #00D6FF; --blue2: #0050FF; --dim: rgba(255,255,255,0.25);
+}
+html { background: var(--bg); scroll-behavior: auto; }
+body {
+  font-family: 'Inter', -apple-system, 'SF Pro Display', sans-serif;
+  background: var(--bg); color: #fff; overflow-x: hidden; cursor: none;
+}
